@@ -5,3 +5,7 @@ __pycache__/
 jobs.sqlite
 *.db
 .DS_Store
+job_feed.csv
+job_feed.md
+.streamlit/
+Thumbs.db
