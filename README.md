@@ -19,3 +19,16 @@ A Streamlit job aggregator that collects the latest Data/Tech jobs across Canada
 python -m venv .venv
 .venv\Scripts\activate.bat
 pip install -r requirements.txt
+
+▶ Run
+streamlit run app.py
+App opens at:
+http://localhost:8501
+
+📌 Notes
+
+No LinkedIn scraping (safe approach)
+
+Uses SQLite locally (jobs.sqlite) for tracking
+
+
