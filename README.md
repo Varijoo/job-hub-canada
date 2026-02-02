@@ -14,6 +14,27 @@ A Streamlit job aggregator that collects the latest Data/Tech jobs across Canada
 - Notes & Follow-up panel per job
 - Export to CSV + Markdown
 
+1. What it does (2–3 bullets)
+
+2. How it works (pipeline)
+
+3. Screenshots (2 images)
+
+4. Run locally
+
+5. Roadmap
+
+## How it works
+1) **Collect** jobs from multiple sources (API/search pages)
+2) **Normalize** fields into one schema (title, company, location, date, link, source)
+3) **De-duplicate** across sources (same job posted multiple times)
+4) **Store** into SQLite (jobs + status + notes)
+5) **Show** in Streamlit UI (filters, search, status tracking)
+
+
+
+
+
 ## 🧰 Setup (Windows)
 ```bash
 python -m venv .venv
@@ -30,5 +51,6 @@ http://localhost:8501
 No LinkedIn scraping (safe approach)
 
 Uses SQLite locally (jobs.sqlite) for tracking
+
 
 
