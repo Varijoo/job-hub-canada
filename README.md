@@ -32,6 +32,9 @@ A Streamlit job aggregator that collects the latest Data/Tech jobs across Canada
 5) **Show** in Streamlit UI (filters, search, status tracking)
 
 
+## Screenshots
+![Job list](screenshots/ui-1.png)
+![Tracking](screenshots/ui-2.png)
 
 
 
@@ -51,6 +54,7 @@ http://localhost:8501
 No LinkedIn scraping (safe approach)
 
 Uses SQLite locally (jobs.sqlite) for tracking
+
 
 
 
